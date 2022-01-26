@@ -1,7 +1,6 @@
 <acl>
    <group name="Everyone">
       <acl name="Default" />
-      <object name="user.*" />
       <object name="resource.*" />
    </group>
    <group name="Moderator">
@@ -20,6 +19,7 @@
       <acl name="SuperModerator" />
       <acl name="Admin" />
       <acl name="RPC" />
+	  <object name="user.*" />
       <object name="resource.admin" />
       <object name="resource.webadmin" />
       <object name="resource.acpanel" />
